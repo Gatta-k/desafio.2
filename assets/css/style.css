@@ -1,0 +1,51 @@
+/*Header*/
+.header {
+    color:rgb(255, 255, 255);
+    height: 10em;
+    padding: 4em;
+    font-size: 2em;
+    background-image: url('/assets/imgs/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header p {
+    color:rgba(255, 252, 255, 0.753);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+/*Productos*/
+
+.products {
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+}
+.products td {
+    width: 50%;
+    padding: 3em;
+    color:rgb(156, 12, 135);
+}
+.products img {
+    width: 70%;
+    border: solid 1px rgb(0, 0, 0);
+}
+
+/*Pie de pagina*/
+
+.footer {
+    height: 5em;
+    line-height: 5em;
+    background-color: rgb(60, 2, 65);
+    color:white;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 1em ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
